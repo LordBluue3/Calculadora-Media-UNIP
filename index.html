@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <title>Calculadora</title>
+        <link rel="stylesheet" href="CSS/style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section class="nav">
+            <div class="nav-bar">
+                <img src="IMAGES/matematica.png" class="logo">
+                <div class="nav-text">
+                        <ol><a href="https://github.com/LordBluue3" onmousemove="mouseEnterMouse1()"
+                            onmouseleave=" mouseLeaveMouse1()" id="github">GitHub</a></ol>
+                        <ol><a href="https://www.linkedin.com/in/mikael-oliveira-345a34209/"onmousemove="mouseEnterMouse2()"
+                            onmouseleave=" mouseLeaveMouse2()" id="linkedin" >Linkedin</a></ol>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <main>
+            <section class="conteudo">
+                <h1>CALCULADORA MEDIA UNIP</h1>
+
+                <label>1º Nota: </label><input type="text">
+                <label>2º Nota: </label><input type="text">
+                <label>1º Exame: </label><input type="text">
+                <button type="button" class="button" name="button" onmousedown="clickButton()"
+                onmouseup="unClickButton()" onmousemove="mouseEnterMouse()"
+                onmouseleave=" mouseLeaveMouse()">Calcular</button>
+            </section>
+            <section class="banner">
+                <img src="/IMAGES/math-banner.png">
+            </section>
+        </main>
+        <script src="JS/script.js"></script>
+    </body>
+</html>
