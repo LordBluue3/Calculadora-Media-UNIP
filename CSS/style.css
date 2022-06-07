@@ -1,0 +1,73 @@
+body{
+    background-image: linear-gradient(to right, rgb(79, 11, 168) , black);
+    margin: 0%;
+}
+
+/*NAVBAR*/
+.nav{
+    padding: 1%;
+    margin: 0%;
+    display: block;
+    border: 10px;
+}
+.nav-bar{
+    display: flex;
+    margin-left: 15%;
+}
+.logo{
+    height: 80px;
+    width: 80px;
+}
+.nav-text{
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-text ol{
+    padding-top: 10px;
+}
+a{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+}
+/*Main*/
+main{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 7%;
+}
+/*Conteudo*/
+.conteudo{
+    display: flex;
+    flex-direction: column;
+}
+ h1{
+    size: 40px;
+    color: white;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+}
+ label{
+    color: white;
+    margin-top: 5%;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+}
+ input{
+    border-radius: 7px;
+    size: 20px;
+    font-weight: bold;
+    height: 30px;
+}
+button{
+    color: white;
+    margin-top: 5%;
+    border-radius: 5px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    background-image: linear-gradient(to right, rgb(96, 1, 219), rgb(9, 5, 37) );
+    border: none;
+}
