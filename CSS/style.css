@@ -1,3 +1,22 @@
+@media(max-width: 2000px) {
+    .banner {
+        width: 50%;
+        
+    }
+}
+@media(max-width: 1000px) {
+    .banner {
+        width: 40%;
+        
+    }
+}
+@media(max-width: 900px) {
+    .banner {
+        width: 0px;
+        visibility: hidden;
+        
+    }
+}
 body{
     background-image: linear-gradient(to right, rgb(79, 11, 168) , black);
     margin: 0%;
