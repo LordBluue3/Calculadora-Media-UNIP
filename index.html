@@ -27,15 +27,20 @@
             <section class="conteudo">
                 <h1>CALCULADORA MEDIA UNIP</h1>
 
-                <label>1º Nota: </label><input type="text">
-                <label>2º Nota: </label><input type="text">
-                <label>1º Exame: </label><input type="text">
+                <label>1º Nota: </label><input type="number" id="nota1" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+                <label>2º Nota: </label><input type="number" id="nota2"onkeypress='return event.charCode >= 48 && event.charCode <= 57' >
+                <label>1º Exame: </label><input type="number" id="exame"onkeypress='return event.charCode >= 48 && event.charCode <= 57' >
                 <button type="button" class="button" name="button" onmousedown="clickButton()"
                 onmouseup="unClickButton()" onmousemove="mouseEnterMouse()"
-                onmouseleave=" mouseLeaveMouse()">Calcular</button>
+                onmouseleave=" mouseLeaveMouse()" onclick="calcularMedia()">Calcular</button>
+                <br><br><br>
+                <div id="alerta">
+                    <p id="aviso"></p>
+                    <p id="nota"></p>
+                </div>
             </section>
             <section class="banner">
-                <img src="/IMAGES/math-banner.png">
+                <img src="IMAGES/math-banner.png">
             </section>
         </main>
         <script src="JS/script.js"></script>
